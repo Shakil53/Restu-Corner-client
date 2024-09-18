@@ -1,7 +1,5 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
 import LoginLayout from "../layouts/LoginLayout/LoginLayout";
-import Main from "../layouts/Main";
-import RecipiLayout from "../layouts/recipiLayout/RecipiLayout";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 
@@ -12,6 +10,8 @@ import Blog from "../pages/Blog/Blog";
 import Error from "../pages/foroff/Error";
 import OurCheif from "../pages/ourCheif/OurCheif";
 import PrivateRoutes from "./PrivateRoutes";
+import Main from "../layouts/recipiLayout/Main";
+import RecipiLayout from "../layouts/recipiLayout/RecipiLayout";
 
 const router = createBrowserRouter([
     {
