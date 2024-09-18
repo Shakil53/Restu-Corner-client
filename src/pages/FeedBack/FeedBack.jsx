@@ -1,4 +1,3 @@
-import React from 'react';
 import { MdPermPhoneMsg } from "react-icons/md";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
